@@ -1,0 +1,198 @@
+/*词条名1 A &amp; E*/
+.DC{
+	display:none;
+}
+/*词条名2*/
+.YX{
+	margin-top:4px;
+	display:block;
+	font-size:120%;
+	color:black;
+	font-weight:bold;
+}
+/*词条名3,带上标*/
+.YD{
+	display:block;
+	color:black;
+	margin-left:4px;
+}
+/*音标*/
+.CB{
+	color:sienna;
+	display:block;
+	margin-left:5
+}
+/*拼音*/
+.PY{
+	color:sienna;
+	display:block;
+	margin-left:5
+}
+/*子词条
+.JS{
+	margin-top:8px;
+}*/
+/*词性*/
+.DX{
+	display: block;
+	margin-left:8px;
+	color:darkmagenta;
+	font-style:italic;
+}
+/*英文解析*/
+.JX{
+	display:block;
+	margin-left:4px;
+}
+/*汉语解析*/
+.GZ{
+	display:block;
+	margin-left:8px;
+}
+/*例句(父)*/
+.LJ{
+	display:block;
+	margin-left:14px;
+}
+/*例句(英)*/
+.LY{
+	display:block;
+	color:darkblue;
+}
+/*例句(汉)*/
+.LS{
+	color:slategray;
+	display: block;
+	margin-left:8px;
+}
+/*号码，点*/
+.entryNum{
+	font-weight:bold;
+	color:darkgreen;
+	/*display:inline;*/
+	display:none;
+	font-weight:bold;
+	font-size: 110%;
+	margin-right:3px;
+}
+.entryDot{
+	font-weight:bold;
+	color:darkgreen;
+	display:inline;
+	/*display:none;*/
+	font-weight:bold;
+	margin-right:3px;
+}
+/*区域标题*/
+.section_title{
+	margin-left:5px;
+	margin-top:4px;
+	font-weight:bold;
+	display: block;
+}
+/*特殊格式*/
+.italic{
+	font-style:italic;
+}
+.bold{
+	font-weight:bold;
+}
+.superscript{
+	vertical-align:super;
+	font-size: 60%
+}
+.subscript{
+	vertical-align:sub;
+	font-size: 60%
+}
+/*禁止显示*/
+.XB .entryNum{
+	display: none;
+}
+.TS .entryNum{
+	display: none;
+}
+.JC .entryNum{
+	display: none;
+}
+.CC .entryNum{
+	display: none;
+}
+.XY .entryNum{
+	display: none;
+}
+.CZ .entryNum{
+	display: none;
+}
+.PS .entryNum{
+	display: none;
+}
+.YY .entryNum{
+	display: none;
+}
+.YF .entryNum{
+	display: none;
+}
+.XB .entryDot{
+	display: none;
+}
+.TS .entryDot{
+	display: none;
+}
+.JC .entryDot{
+	display: none;
+}
+.CC .entryDot{
+	display: none;
+}
+.XY .entryDot{
+	display: none;
+}
+.CZ .entryDot{
+	display: none;
+}
+.PS .entryDot{
+	display: none;
+}
+.YY .entryDot{ 
+	display: none;
+}
+.YF .entryDot{
+	display: none;
+}
+/*子条目链接*/
+.ref_title{
+	margin-right:5;
+	font-weight:bold;
+	font-style:normal;
+}
+.reference{
+	font-style:italic;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

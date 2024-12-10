@@ -1,0 +1,1648 @@
+﻿body {
+font-family:;
+font-size: ;
+line-height: 1.3em;
+}
+
+entry {
+    font-family:
+    font-size: ;
+    color: black;
+    display: block;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    padding-bottom: 8pt;
+    padding-top: 8pt;  
+    -webkit-touch-callout:none;
+    overflow: auto;
+}
+
+template {
+	display: none;
+}
+
+chn {
+	font-family: ;
+	font-style: normal;
+              color: black;
+              display:block;font-weight: normal;
+}
+
+olect x, colloc x, olect wx, colloc note, obedec cl {
+	font-family: ;
+}
+
+xrtag {
+	font-family: ;
+}
+
+colloc chn {
+	font-weight: normal;
+}
+
+colloc q {
+	font-style: normal;
+}
+
+olect cl-g x, colloc pvs-n-g {
+	font-family:
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+colloc n-blk, olect n-blk {
+	display:block;
+}
+
+colloc sl-g-blk, olect sl-g-blk {
+	display: block;
+	margin-top: 1em;
+}
+
+syn-diamond {
+	color: red;
+}
+
+colloc alt-blk, olect alt-blk {
+	display: block;
+}
+
+colloc sh-g, colloc syn-g, colloc syn-g>d, olect sh-g, olect syn-g, olect syn-g>d {
+	display:block;
+}
+
+colloc sl-g-list, olect sl-g-list {
+	display: block;
+	margin-top: 1em;
+}
+
+colloc sl-g-preview ,olect sl-g-preview {
+	font-weight: bold;
+	color: #0072cf;
+}
+
+sl-g-preview{
+display: ;
+margin: 0px 0px 0px 4px;
+color: BLACK;
+background-color: #F4A460;font-size: 90%;
+}
+sl-g-head{
+display: block;
+margin: ;
+color: #C76E06;
+font-size: 95%;
+margin-top: 6px;
+font-weight: bold;margin-bottom: -2px;}
+
+colloc d, colloc help, colloc n-blk, colloc wx, olect d, olect help, olect n-blk, obedec help {
+	display: block;
+}
+
+obedec entry > cl-g > cl-blk > clsymb {
+	margin-left: 0;
+}
+
+obedec entry > cl-g > cl-blk > cl > chn {
+	margin-left: 1em;
+}
+
+olect help, colloc help, obedec help {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+colloc hh, olect hh {
+	font-weight: bold;
+}
+
+colloc sh-g, olect sh-g {
+	margin-top: 1em;
+}
+
+colloc r {
+	color: #7c7c7c;
+}
+
+rsh {
+	font-weight: bold;
+}
+
+alt, co, dr, dre, h, h2, colloc sh, olect sh, oalecd8 ab, obedec ab, he, id, if,  pv, sym, v, ve, vs, xp, xw, zd {
+	font-weight: bold;
+	font-style: normal;
+	color: #003866;
+}
+
+obedec dffs {
+	display: block;
+}
+
+un heading {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+colloc illsee {
+	display: block;
+	font-weight: bold;
+}
+
+olect ill-g img {
+	object-fit: contain;
+	width: 100%;
+	height: 200px;
+	padding-top:10pt;
+	padding-bottom:10pt;
+}
+
+colloc b, olect b {
+	font-weight: bold;
+}
+
+rightarr {
+	float: right;
+	vertical-align: middle;
+	position: relative;
+	bottom: 0.1em;
+}
+
+morecolloc  {
+	display: block;
+	background-color: #cccccc;
+	font-weight: bold;
+	margin-left: -8pt;
+	margin-right: -8pt;
+	width: 100%;
+	padding-left:8pt;
+	padding-right: 8pt;
+	padding-top:2pt;
+	padding-bottom:2pt;
+}
+
+colloc ars-arrow, olect ars-arrow {
+	width:100%;
+	height: 36px;
+	display: block;
+	background-image:url(arrow.png);
+	background-size: 344px 36px;
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+colloc ars-g, olect ars-g {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+colloc ar-g, olect ar-g {
+	display: table-row;
+}
+
+colloc ar, olect ar {
+	display: table-cell;
+}
+
+colloc ab, olect ab {
+	font-weight: bold;
+	color: #003866;
+}
+
+img {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+obedec img {
+	margin-top: 1em;
+}
+
+
+
+boxblock img {
+	min-width: 0;
+	margin-left: 0;
+}
+
+symbol_r boxblock boxtag img {
+	vertical-align: bottom;
+	display: inline-block;
+}
+
+paragraph boxblock boxtag img {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+img.thumb {
+	display: inline;	
+}
+
+ill-g[thumb='y'] {
+	display: float;
+	float: right;
+	max-width: 25%;
+	min-width: 25%;
+}
+
+q, s, label {
+	font-weight: normal;
+	color: #7c7c7c;
+}
+
+namelabel {
+	color: #de002d;
+}
+
+brelabel {
+	color: #0072cf;
+}
+
+colloc cm, olect cm, ei, g, gi, il, p, q, r, s, wfp, x, label, namelabel, igcm {
+	font-style: italic;
+}
+
+obedec gr label {
+	font-style: normal;
+}
+
+obedec nostyle, obedec spunc {
+	font-style: normal;
+	color: black;
+}
+
+alt-blk gr-blk {
+	font-weight: normal;
+	color: black;
+}
+
+colloc sb-g, olect sb-g {
+	display:block;
+}
+
+etcnote, midcletcnote {
+	font-weight: normal;
+}
+
+obedec d {
+	display: block;
+}
+
+colloc sl-g-head, olect sl-g-head {
+	display:block;
+	font-weight:bold;
+	color: #0072cf;
+}
+
+colloc gr-blk {
+	font-weight: normal;
+}
+
+colloc pv-blk {
+	margin-top: 2em;
+}
+
+colloc pvs-g-blk > pvs-g > pv-blk {
+	margin-top: 1em;
+}
+
+colloc pvs-g sl-g-blk {
+	margin-left: 1em;
+}
+
+colloc pvs-g n-blk {
+	margin-top: 0.5em;
+}
+
+colloc pvs-g n-blk d {
+	margin-left: 1.1em;
+	text-indent: -1.1em;
+}
+
+colloc pvs-n-g  {
+	color: #0072cf;
+	font-weight: bold;
+}
+
+olect sl-g-hw {
+	color: red;
+}
+
+cf g-blk {
+	font-weight: normal;
+	color: black;	
+}
+
+cc, cf,  dhb, eb, fm, xw, xrbold  {
+	font-weight: bold;
+}
+
+cl  {
+	font-weight: bold;
+}
+cl {
+display: INLINE;
+color: BLACK;
+font-weight: bold;
+text-align: left;
+padding-top: 2px;
+position: relative;
+padding-left: ;
+font-size: ;
+}
+
+cl:before  {
+content: "■";
+font-size: 70%;
+color:darkred ;
+margin-left: -10px;
+margin-right: 3px;
+vertical-align: 10%;display:none
+}
+
+x:before  {
+content: "■";
+font-size: 90%;
+color: #A0522D;
+margin-left: -12px;
+margin-right: 3px;display:none;
+}
+
+x{
+font-size: ;
+}
+
+n-num{
+font-size: ;
+color: #369;
+margin-left: 2px;
+margin-right: 2px;padding-right: 4px;
+font-weight: bold;
+}
+
+h{
+font-size: 100%;
+color: BLACK;
+}
+
+cc, cf {
+	color: #0072cf;
+}
+
+drtri {
+	color: #7c7c7c;
+}
+
+dr-g {
+	display: block;
+}
+
+dr-g {
+	padding-top: 1em;
+}
+
+olect dr-blk:after {
+	content: " ";
+}
+
+colloc cl-header, olect cl-header {
+	display: block;
+	color: #0072cf;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+colloc cm {
+	font-weight: normal;
+}
+
+obedec gem {
+	font-style: italic;
+	color: #7c7c7c;
+}
+
+obedec cm {
+	font-family:
+	color: #7c7c7c;
+	font-style: italic;
+}
+
+help {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+olect ars-g-header {
+	display: block;
+	color: #d04437;
+	font-weight: bold; 
+	margin-top: 1em;
+ }
+ 
+colloc r-blk, olect syn r-blk {
+ 	font-weight: normal;
+}
+
+obedec r xrex {
+	color: #7c7c7c;
+	font-family:
+}
+
+obedec r chn  {
+	color: #7c7c7c;	
+}
+ 
+ colloc q {
+ 	font-style: italic;
+ }
+ 
+ olect help[type='isym'], obedec help[type='isym'] {
+ 	background-color: #EBEBEB;
+ }
+ 
+ olect help[type='isym'] gr, obedec help[type='isym'] gr {
+	font-family:	
+ }
+
+cm,  dc, dst, eph, etym, ff, fm, gl, help, u, ud, wfp, xh, xp, xw, xrlabel {
+	font-family: ;
+color: #038;
+}
+
+d {
+	font-family: ;
+color: black;
+}
+x {
+	font-family: ;
+color: #038;font-style: normal;
+}
+obedec ff, obedec dff, obedec ff-no-newline {
+	font-weight: bold;
+}
+
+obedec dff, obedec ff-no-newline {
+	color: #003866;
+}
+
+obedec cf vbar {
+	color: black;
+	font-weight: normal;
+}
+
+obedec ffcm  {
+	color: #7c7c7c;
+	font-style: italic;	
+}
+
+obedec ff  {
+	display: block;
+}
+
+olect xw {
+	font-family:	
+}
+
+xp {
+	font-style: italic;	
+}
+
+obedec xp, obedec vscomma, obedec nocolor {
+	font-weight: normal;
+	color: black;
+}
+
+obedec xr[xt='see'] {
+	font-family: ;
+}
+
+obedec p[xt='ptppof'] {
+	font-family: ;
+	font-weight: normal;
+	font-style: normal;
+}
+
+obedec ve {
+	font-family:	
+}
+
+olect xp {
+	font-size: 90%;
+}
+
+x g, x r, x s, olect x q {
+	font-family:	
+}
+
+olect x g, olect x r, olect x s, olect x r-blk q, olect x s-blk q, olect x g-blk q {
+	font-style: italic;
+}
+
+olect x r-blk, olect x s-blk, olect x g-blk {
+	font-style: normal;
+}
+
+olect help-head chn {
+	font-weight: bold;
+}
+
+cm ei-blk {
+	font-family:
+	color: #7c7c7c;
+}
+
+gl {
+	font-style: normal;
+}
+
+xrbold {
+	text-transform: uppercase;
+}
+
+h, h2, hs, hcomma {
+	font-size: 1.2em;
+}
+
+colloc sh, olect sh {
+	font-size: 1.5em;
+}
+
+hs {
+	font-weight: normal;
+	font-style: normal;
+	color: #003866;
+}
+
+hkey, hawl {
+	font-size: 1.1em;
+	vertical-align: 20%;
+}
+
+colloc syn, olect syn {
+	font-weight: bold;
+	color: #003866;
+}
+
+top-g > tm {
+	font-size: 1.5em;
+	color: #003866;
+	vertical-align: 30%;	
+}
+
+oalecd8 help {
+	display: block;
+}
+
+hm
+{
+    font-size: 1.12em;
+    vertical-align: 60%;
+	color: #003866;
+}
+
+audio-gb, audio-us {
+	font-family: ;
+	font-style: normal;
+}
+
+audio-gb {
+	color: #0072cf;
+}
+
+audio-us {
+	color: #de002d;
+}
+
+xh {
+	color: #de002d;
+	font-weight: bold;
+}
+
+colloc xs, olect xs {
+	font-size: 90%;
+}
+
+oalecd8 xr xhm, oalecd8 xr xs-blk, oalecd8 xr xs, oalecd8 xr xp {
+	color: #de002d;	
+}
+
+colloc s-blk {
+	font-weight: normal;
+}
+
+xr[xt="andv"] xh {
+	color: black;
+}
+
+colloc xr-blk[xt="page"] {
+	display: block;
+	margin-top: 1em;
+}
+
+colloc xr[xt="note"] xh {
+	color:red;
+	font-variant: none;
+	font-weight: bold;
+}
+
+colloc xr-blk[xt="note"] {
+	display: block;
+	margin-top: 1em;
+}
+
+xr[xt="ffndv"] xh, xr[xt="ndv"] xh, xr[xt="dvg"] xh  {
+	color: #003866;
+}
+
+obedec xr {
+	font-family: ;
+}
+
+xhm
+{
+	font-size: .6em;
+	vertical-align: super;
+}
+
+phon-us, phon-gb, eph, eph-blk, i, y {
+	font-family:;
+}
+
+h-g top-g ifs-g phon-us, h-g top-g ifs-g phon-gb {
+	font-size: 1em;
+}
+
+p {
+	font-weight: bold;
+	font-style: italic;
+              display: block;
+               color: darkRED;margin-top: 4px;
+margin-bottom: 2px;
+}
+
+p-blk{
+display: inline;            
+}
+
+wx {
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+ab-label, sym-label, il, colloc cm, olect cm, obedec igcm {
+	color: #7c7c7c;
+	font-style: italic;
+}
+
+m-g, mn-g, msd, mxh, mxp, mxr, mxs, mxsd, xmm, xpg {
+	display: none;
+}
+
+ei-g il {
+	display: block;
+}
+
+if-g il-blk il {
+	display: inline;
+}
+
+symb, symbol {
+	    font-family:;
+}
+
+symbol[type='key'] {
+	color: #DC8C39;
+}
+
+entry > a > symbol[type='key'] {
+	font-size: ;
+}
+
+arrow {
+	font-family: ;
+	color: #de002d;margin-right: -5px;
+}
+
+x-blk[status="withnote"] xsymb, sh-container[status="withnote"] xsymb, pv-blk[status="withnote"] xsymb, id-blk[status="withnote"] xsymb, dr-g[status="withnote"] drtri {
+	color: #de002d;
+}
+
+x-blk[status="nonote"] xsymb, sh-container[status="nonote"] xsymb, pv-blk[status="nonote"] xsymb, id-blk[status="nonote"] xsymb, dr-g[status="nonote"] drtri {
+	color: #0072cf;
+}
+
+sh-container xsymb:before {
+ content: "    ";
+}
+
+sh-container xsymb {
+	margin-left: 0;
+	font-size: 1em;
+	padding-right: 0.1em;
+	position: relative;
+	bottom: 0.2em;
+}
+
+x-blk, pv-blk, id-blk, olect wx-blk {
+	display: block;
+	padding-left: 1.3em;
+}
+
+g-blk[class="x"], r-blk[class="x"] {
+	padding-left: 1.3em;
+}
+
+oalecd8 n-g x-blk, oalecd8 n-g pv-blk, oalecd8 n-g id-blk, obedec li n-g x-blk, obedec n-g pv-blk, obedec n-g id-blk
+{
+	margin-left: -1.3em;
+}
+
+obedec ptcomma {
+	color:black;
+}
+
+obedec pt label {
+	font-style: normal;
+}
+
+obedec cl-blk {
+	padding-left: 1.3em;
+}
+
+obedec li cl-blk {
+	margin-left: -1.3em;
+}
+
+obedec clsymb {
+	font-style:normal;
+	font-size:.7em;
+	color:#80bbe1;
+	padding-right:.52em;
+	margin-left: -1.62em;
+}
+
+obedec n-g {
+	display: block;
+	margin-top: 1em;
+}
+
+/* symbol font */
+obedec dicsymb
+{
+    color:#3266ff;
+    font-weight:normal;
+}
+
+/* red version for key */
+obedec dicsymbr
+{
+    color:#dd0604;
+    font-weight:normal;
+    /*font-size:1.5em;*/
+}
+
+xsymb  {
+font-style: normal;
+font-size: 40%;
+color: gray;
+padding-right: .52em;
+margin-left: -6px;
+vertical-align: top;
+margin-top: 5px;
+}
+
+sd-blk {
+	display: block;
+	padding-left: 1.3em;
+	margin-bottom: -1em;
+}
+
+sd-blk[defnafter='y'] {
+	margin-bottom: 0em;	
+}
+
+sd {
+	color: #0072cf;
+	text-transform: uppercase;
+}
+
+sdsymb  {
+	font-style:normal;
+	color:#0072cf;
+	padding-right:.4em;
+	margin-left: -1.3em;
+}
+
+gr > a, r > a {	
+	color:#7c7c7c;
+}
+
+ol {
+	-webkit-padding-start: 1.3em;
+	-webkit-margin-after: 0.5em;
+    color: #0072cf; 
+	font-weight: bold;
+}
+
+help[type="note"] {
+	display: block;
+	background-color: #efefef;
+	padding: 3px;
+}
+
+help[type="note"] hh {
+	display: block;
+	margin-bottom: 0.25em;
+}
+
+boxtag {
+	font-family:
+   	background-color: #0072cf;
+	color: #ffffff;
+    font-weight:bold;
+    padding-top:0.05em;
+    padding-bottom:0.05em;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    font-size: 0.9em;
+    border-radius: 0.3em;
+}
+
+/*oalecd8 boxblock {
+    float:left;
+}*/
+
+boxblock boxtag {
+	background: none;
+	padding:0em;
+	font-size: 1em;
+}
+
+boxblock boxtag img {
+	/*display: inline-block;*/
+	max-height:1.3em;
+	width: auto;
+	height: 1.3em;
+}
+
+/*
+boxblock boxtag {
+	background: #0072cf;
+	background:
+		linear-gradient(135deg, transparent 0px, #0072cf 0) top left,
+		linear-gradient(225deg, transparent 10px, #0072cf 0) top right,
+		linear-gradient(315deg, transparent 10px, #0072cf 0) bottom right,
+		linear-gradient(45deg,  transparent 0px, #0072cf 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	padding-right: 1em;
+}*/
+
+boxtag[type='awl'] {
+	background-color: #000000;
+}
+
+boxtag[type='cp'] {
+	background-color: #007a6c;
+}
+
+xr-seea-blk, xr-seeae-blk {
+	display: block;
+}
+
+olect  xr-seeae-blk {
+	margin-bottom: 1em;
+}
+
+olect xr xp, olect xr xs {
+	font-weight: normal;
+	color: inherit;
+}
+
+olect xr xs {
+	font-size: 75%;
+}
+
+n-g {
+	font-weight: normal;
+	color: black;
+}
+
+olect n-g, colloc n-g {
+	margin-top: 1em;
+}
+
+hsrch {
+	display: none;
+}
+
+id-g, pv-g, etym-blk, help-blk {
+	display: block;
+	margin-top: 1em;
+	clear:left;
+}
+
+/*obedec p-blk,obedec gr-blk, obedec i-blk {
+	display: block;
+}*/
+
+obedec i-g {
+	display: block;
+}
+
+obedec ifs-g i-g {
+	display: inline;
+}
+
+obedec ifs-g {
+	display: block;
+}
+
+obedec help[helptype='note'] {
+	display: block;
+}
+
+obedec xrnewline {
+	display:block;
+	margin-top:0;
+	margin-bottom:0;
+	height:0;
+}
+
+id-g[skel="y"], pv-g[skel="y"] {
+	margin-top: 0.4em;
+}
+
+pvp-g-blk[skel="y"]:before {
+	content: "\A";
+}
+
+h-g > d, p-g > d {
+	display: block;
+}
+
+side-g{
+	display:none;
+}
+
+unbox, un, wf-g-blk
+{
+    color: black;
+    display: block;
+    font-family:
+    font-size: ;
+    line-height: 18pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    padding-bottom: 8pt;
+    padding-top: 8pt;  
+    -webkit-touch-callout:none;
+    margin: 8pt;
+    margin-bottom: 16pt;
+    border-style: solid;
+    border-width: 3px;
+}
+
+unbox[type="which_word"] {border-color: #AB0023;}
+unbox[type="vocab"] {border-color: #E4007F;}
+unbox[type="grammar"] {border-color: #434343;}
+unbox[type="british_american"] {border-color: #5F52A0;}
+unbox[type="more_about"] {border-color: #DE002D;}
+unbox[type="synald7"] {border-color: #EB400C;}
+unbox[type="colloc"] {border-color: #F5200C;}
+unbox[type="langbank"] {border-color: #A40035;}
+wf-g-blk {border-color: #00479D;}
+
+colloc heading {
+	font-weight: bold;
+	display: block;
+}
+
+colloc cl note-blk {
+	font-weight: normal;
+}
+
+colloc note-blk[nt='seenote'], colloc note-blk[nt='seealso'] {
+	display: block;
+}
+
+colloc note-blk[nt='seealso'] eb, colloc note-blk[nt='abbr'] eb, colloc note-blk[nt='variant'] eb {
+	font-weight: bold;
+	font-family:
+}
+
+obedec u {
+	color:#7c7c7c;
+	font-family:
+	font-style: italic;
+	font-weight: normal;
+}
+
+obedec u chn {
+	font-style: normal;
+}
+
+obedec u eb {
+	font-weight: bold;
+	font-style: normal;
+	color: #003866;
+}
+
+colloc un cl {
+	color: #0072cf;
+}
+
+colloc entry cl g-blk,  colloc entry cl r-blk, colloc entry cl s-blk, colloc entry cl cm-blk, obedec cl {
+	font-weight: normal;
+}
+
+colloc un note-blk, colloc cl-blk, cl-g cl-blk {
+	display: block;
+}
+
+cl-g > cl-blk:first-of-type {
+    margin-top: .8rem;
+}
+
+typetitle
+{
+    display:block;
+    background-color:#abbbd6;
+    font-weight: 700;
+	font-family:
+}
+
+colloc unbox-list {
+	display: block;
+	margin-top: 1em;
+}
+
+unbox-list-item
+{
+    display:block;
+    font-weight: 700;
+    color:#de002d;
+	font-family:
+}
+
+piclink
+{
+	color: #de002d;
+	text-decoration: underline;
+	display: block;
+}
+
+brelabel, uslabel, graylabel
+{
+	color:#7c7c7c;
+	font-style: italic;
+	font-family:
+}
+
+namelabel
+{
+	color:#7c7c7c;
+	font-style: italic;
+	font-family:;font-weight: normal;
+}
+
+
+g>a
+{
+	color:#7c7c7c;
+}
+
+obedec aaa {
+	color: #003866;
+	font-weight: bold;
+	font-family:
+}
+
+i-g brelabel
+{
+	color:#0072cf;
+	font-style: italic;
+}
+
+ifs-g-nobrk i-g {
+	display: inline;
+}
+
+i-g namelabel, i-g uslabel, obedec ifs-g namelabel, obedec i-g-nobrk namelabel
+{
+	color:#de002d;
+	font-style: italic;
+	font-family:
+}
+
+phon-gb-blk, phon-us-blk  {
+	display: block;
+}
+
+obedec n-g n {
+	font-weight: bold;
+}
+
+obedec xr-list {
+    padding-bottom: 1em;
+}
+
+obedec li help {
+	margin-left: -1.3em;
+}
+
+obedec li help x-blk {
+	margin-left: 0em;
+}
+
+obedec xr-title
+{
+	display:block;
+    font-weight: bold;
+    color:#dd0604;
+    text-transform: uppercase;
+}
+
+ifs-g if-g-blk ei-g phon-gb-blk, ifs-g if-g-blk ei-g phon-us-blk, x phon-gb-blk, x phon-us-blk,
+vs-g-blk ei-g phon-gb-blk, vs-g-blk ei-g phon-us-blk {
+	display: inline;
+}
+
+obedec id-g-blk boxtag img, obedec pv-g-blk boxtag img {
+	padding-top: 1em;
+}
+
+vs-g-blk ei-g phon-gb-blk:before, vs-g-blk ei-g phon-us-blk:before {
+	content: "\A";
+}
+
+phon-gb-blk brelabel
+{
+	color: #0072cf;
+}
+
+phon-us-blk namelabel
+{
+	color:#de002d;
+}
+
+title, tarial
+{
+    font-weight: 700;
+    font-size:large;
+	font-family: 
+}
+
+title, subhead, langbanksubhead
+{
+    display:block;
+}
+
+subhead, langbanksubhead, collsubhead
+{
+    font-weight:700;
+	font-family:
+}
+
+subheada:before
+{
+	content: "\A";
+    white-space: pre-line;
+}
+
+subheadb:before
+{
+	content: "\A";
+    white-space: pre-line;
+}
+
+subheada
+{
+	font-size:large;
+	font-weight:700;
+	font-family:
+	display:block:
+	padding-bottom:1em;
+}
+
+subheadb
+{
+	font-weight:700;
+	font-family:
+	display:block:
+	margin-top:1em;
+	color:#003866;    
+}
+
+td
+{
+	text-align:left;
+}
+
+xr-list
+{
+	display:block;
+}
+
+xr-item
+{
+	display:block;
+}
+
+obedec cl-blk {
+	display: block;
+}
+
+para
+{
+    display:block;
+}
+
+.xritems
+{
+	display:none;
+}
+
+/*para[outdent="y"]
+{
+    text-indent:hanging;
+}*/
+
+para[outdent="y"]:before
+{
+	content:"\25A0  ";    
+    color: #0072cf;
+}
+
+unbox[type="synonyms"] para[outdent="y"]:before, unbox[type="synald7"] para[outdent="y"]:before
+{
+	content: "";
+}
+
+para[above="1"]:before, para[above="2"]:before, para[above="3"]:before, patterns>para:before
+{
+    content:"\25A0  ";    
+    color: #0072cf;
+}
+
+un heading {
+	margin-bottom: 1em;
+}
+
+un chn {
+	font-weight: normal;
+}
+
+para[type="bullet"]:before
+{
+    content:"\25CF  ";    
+    color: #0072cf;
+}
+
+para[type="firstflush"]:before {
+    content: "\A";
+    white-space: pre-line;
+}
+
+para[type="flush"]:before {
+    content: "\A";
+    white-space: pre-line;
+}
+
+para[outdent="n"]:before {
+	content: none;
+}
+
+td para:before {
+	content:"";
+	white-space: nowrap;
+}
+
+patterns para:before
+{
+	content:"\25A0  "  !important;    
+    color: #0072cf  !important;
+}
+
+arbd1, unfm, uneb, unebi, uncl
+{
+    font-weight: 700;
+	font-family:
+}
+
+arit1, unei, ungi, unx, unebi, unwx, uncl, unxp, unwxp
+{
+    font-style: italic;
+}
+
+unwx, unwxp
+{
+    text-decoration:line-through;
+}
+
+ungl
+{
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+	font-family:
+}
+
+unxh
+{
+    font-weight: 700;
+	font-family:
+	color: #de002d;
+}
+
+xrarr {
+	color: #de002d;
+}
+
+obedec-unbox table {
+    border-spacing: 50px 25px;
+}
+
+obedec-unbox unbox[Name="mean/median/mode"] table {
+	border-spacing: 5px 5px;
+}
+
+obedec-unbox td {
+	vertical-align: top;
+}
+
+unxp:before, unwxp:before, obedec-unbox td unx:before
+{
+	content:"\25C6   ";
+	font-style:normal;
+	font-size:.8em;
+	color:#7c7c7c;
+}
+
+para[type="bullet"] unxp:before, para[type="bullet"] unwxp:before
+{
+	content:"";
+}
+
+unxp, unwxp, obedec-unbox td unx
+{
+	display: block;
+}
+
+para[type="bullet"] unxp, para[type="bullet"] unwxp
+{
+	display: inline;
+}
+
+althead, subhead, collsubhead, langbanksubhead, patterns
+{
+	color: #003866;
+}
+
+althead
+{
+    font-weight: 700;
+	font-family:
+}
+
+althead>chn
+{
+    font-weight: 700;
+}
+
+unsyn
+{
+    font-weight: 700;
+	font-family:
+    color: #0072cf;
+}
+
+synsep
+{
+	font-size: .6em;
+}
+
+table
+{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+wfh
+{
+	display: block;
+	color: #0072cf;
+}
+
+wfw
+{
+	font-weight: bold;
+}
+
+th, wfp
+{
+	font-family:
+}
+
+highlight
+{
+	background-color: #fff88a;
+	border: 2px;
+	border-color: #000000;
+}
+
+unx, unx, unwx, unxh, unbox xs {
+	font-weight: 300;
+}
+
+langbanksubhead, collsubhead {
+	font-weight: 500;
+}
+
+collsubhead {
+	display: block;
+}
+
+althead, subhead, patterns, title, unsyn {
+	font-weight: 700;
+}
+
+[highlight="y"]
+{
+  background-color: #fff88a;
+  border: 2px;
+  border-color: #000000;
+}
+
+content[highlight="y"]
+{
+  background-color: inherit;
+  border:0px;
+}
+
+[hidden="y"]
+{
+	display:none;
+}
+
+ebi
+{
+    font-weight: 700;
+	font-family:
+    font-style: italic;
+}
+
+obedec ebi {
+	font-family: ;
+}
+
+/* <div class="olect-arrow"></div> */
+
+/*.olect-arrow {
+	background: linear-gradient(to right, #eeeeee , #000000);
+	width: 100%;
+	height: 20px;
+}*/
+
+scale {
+	display: block;
+	margin-top: 0.25em;
+    	border-top: solid 2px black;
+}
+
+help en {
+	text-transform: uppercase;
+}
+
+table.ars-g {
+	width: 100%;
+}
+
+table.ars-g tr td {
+	width: 25%;
+	vertical-align: top;
+}
+
+colloc cl g-blk {
+	font-weight: normal;
+}
+
+.olect-arrow-container {
+	width: 100%;
+	height: 2em;
+}
+
+.olect-arrow-body {
+	display: inline-block;
+	margin-left: 2em;
+	width: calc(96% - 2em);
+	height: 0.6em;
+	margin-left: 2%;
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	background: linear-gradient(to right, #eeeeee , #000000);
+}
+
+.olect-arrow-head {
+	display: inline;
+	border-top: 1em solid transparent;
+	border-left: 1em solid black;
+	border-bottom: 1em solid transparent;
+	margin-right: 2%;
+}
+
+g-blk{font-weight: normal;}
+sl-g-list{display:none;}
+sl-g{}
+sb-g{margin-top: 2px;
+display: block;}
+s, strike, del {
+text-decoration:none;
+}
+chnsep{display:none;}
+r-blk{font-weight: normal;}
+
+s chn{
+display:inline-block;margin-left: 2px;
+}
+
+s-blk{
+font-weight: normal;
+}
+
+s-blk s{
+color:green;
+}
+
+x  chn{
+color:gray;
+}
+
+g brelabel{
+color:green
+}
+
+g namelabel{
+color:green
+}
+
+note {
+display:;
+}
+
+he-blk brelabel{
+color:green
+}
+
+r-blk q{
+color:black;
+}
+
+s-blk q{
+color:black;
+}
+
+alt q{
+color:black;
+}
+
+note-blk note{
+
+font-weight: normal;
+}
+
+r-blk r{
+color:green
+}
+
+x g-blk{
+color:black;
+}
+
+g-blk g[g="espbr"]{
+color:black;
+}
+
+chn1{
+display:inline;margin-left: 1px;
+}
+
+p1{
+font-weight: bold;
+font-style: italic;
+display: block;
+color: darkRED;
+margin-top: 4px;
+margin-bottom: 2px;
+}
